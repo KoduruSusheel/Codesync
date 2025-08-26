@@ -22,7 +22,7 @@ def send_email_with_attachments():
 
     # attach all .py files in folder
     for filename in os.listdir(FOLDER_TO_WATCH):
-        if filename.endswith(".py"):
+        if filename.endswith((".py", ".c", ".cpp", ".java", ".js", ".html", ".css", ".sql", ".txt")):
             filepath = os.path.join(FOLDER_TO_WATCH, filename)
             with open(filepath, "rb") as f:
                 file_data = f.read()
@@ -48,4 +48,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
