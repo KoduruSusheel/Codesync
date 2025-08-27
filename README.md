@@ -1,6 +1,8 @@
 # Codesync
 A simple Python tool to auto-backup lab code. Monitors your folder, and on exit (Ctrl+C) sends all .py files to your Gmail as attachments using App Passwords. Saves time, prevents data loss, and ensures you always have the latest code safely stored.
 CodeSync – Automatic Python Lab Backup Tool
+
+
 📌 Problem
 
 In our lab sessions, we often get only limited time (e.g., 3 hours) to write and complete assignments.
