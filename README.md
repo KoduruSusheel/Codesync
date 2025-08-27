@@ -3,7 +3,7 @@ A simple Python tool to auto-backup lab code. Monitors your folder, and on exit 
 CodeSync – Automatic Python Lab Backup Tool
 📌 Problem
 
-In our Python lab sessions, we often get only limited time (e.g., 3 hours) to write and complete assignments.
+In our lab sessions, we often get only limited time (e.g., 3 hours) to write and complete assignments.
 Since the lab systems reset or we need to continue coding later in the hostel, many students email themselves partial code.
 
 The problem:
